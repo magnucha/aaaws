@@ -1,0 +1,16 @@
+﻿@page
+@model Client.Pages.WeatherModel
+@{
+}
+
+
+<div>
+    @foreach(var forecast in Model.Forecasts) {
+        <div>
+            <div>@forecast.Date</div>
+            <div>@forecast.TemperatureC</div>
+            <div>@forecast.TemperatureF</div>
+            <div>@forecast.Summary</div>
+        </div>
+    }
+</div>
