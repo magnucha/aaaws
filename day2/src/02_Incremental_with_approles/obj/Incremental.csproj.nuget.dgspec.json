@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/magnus/development/ndc/workshop/aaaaws/day2/src/02_Incremental_with_approles/Incremental.csproj": {}
+  },
+  "projects": {
+    "/home/magnus/development/ndc/workshop/aaaaws/day2/src/02_Incremental_with_approles/Incremental.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/magnus/development/ndc/workshop/aaaaws/day2/src/02_Incremental_with_approles/Incremental.csproj",
+        "projectName": "Incremental",
+        "projectPath": "/home/magnus/development/ndc/workshop/aaaaws/day2/src/02_Incremental_with_approles/Incremental.csproj",
+        "packagesPath": "/home/magnus/.nuget/packages/",
+        "outputPath": "/home/magnus/development/ndc/workshop/aaaaws/day2/src/02_Incremental_with_approles/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/magnus/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.5, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[7.0.5, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.Identity.Web": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            },
+            "Microsoft.Identity.Web.UI": {
+              "target": "Package",
+              "version": "[2.11.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

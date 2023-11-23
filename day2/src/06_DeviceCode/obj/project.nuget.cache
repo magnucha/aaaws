@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "qZeSJxxLXs8GK4dNWGIRBnway8mA27yWePCWLDHWnJtOX25DwiYlUZmwFzam/vkmmd/ykScGr1rh6lDgLjjtiw==",
+  "success": true,
+  "projectFilePath": "/home/magnus/development/ndc/workshop/aaaaws/day2/src/06_DeviceCode/06_DeviceCode.csproj",
+  "expectedPackageFiles": [
+    "/home/magnus/.nuget/packages/microsoft.identity.client/4.54.0/microsoft.identity.client.4.54.0.nupkg.sha512",
+    "/home/magnus/.nuget/packages/microsoft.identitymodel.abstractions/6.22.0/microsoft.identitymodel.abstractions.6.22.0.nupkg.sha512"
+  ],
+  "logs": []
+}

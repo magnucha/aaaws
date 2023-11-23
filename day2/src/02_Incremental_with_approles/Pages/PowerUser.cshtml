@@ -1,0 +1,13 @@
+@page
+@model Incremental.Pages.PowerUser
+@{
+    ViewData["Title"] = "PowerUser";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@foreach(var claim in User.Claims)
+{
+    <li>@claim.Type: @claim.Value</li>
+}
+</ul>

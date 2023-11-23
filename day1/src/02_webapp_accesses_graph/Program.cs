@@ -7,11 +7,14 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddAuthentication(OpenIdConnectDefaults.AuthenticationScheme)
     .AddMicrosoftIdentityWebApp(builder.Configuration.GetSection("AzureAd"))
+        .EnableTokenAcquisitionToCallDownstreamApi(new[] { "user.readbasic.all" })
+            .AddMicrosoftGraph(builder.Configuration.GetSection("GraphBeta"))
+            .AddInMemoryTokenCaches();
 
 builder.Services.AddAuthorization(options =>
 {
-    // By default, all incoming requests will be authorized 
-    // according to the default policy, which requires an 
+    // By default, all incoming requests will be authorized
+    // according to the default policy, which requires an
     // authenticated user
     options.FallbackPolicy = options.DefaultPolicy;
 });

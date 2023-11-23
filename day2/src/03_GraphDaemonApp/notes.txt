@@ -1,0 +1,81 @@
+App Client ID: 18038c21-d13d-4096-9c7e-38cedf44ec19
+App Object ID: d666abb7-67a5-4c93-a141-883a79cc1230
+App Client Secret:
+{
+  "appId": "18038c21-d13d-4096-9c7e-38cedf44ec19",
+  "password": "ljr8Q~hR3ILqKqAbBgJJrbWSijZrx2s9VDqm1aeg",
+  "tenant": "a1c5bee8-9e19-44cb-9f07-b94b279890ab"
+}
+
+# App
+{
+  "@odata.context": "https://graph.microsoft.com/v1.0/$metadata#applications/$entity",
+  "addIns": [],
+  "api": {
+    "acceptMappedClaims": null,
+    "knownClientApplications": [],
+    "oauth2PermissionScopes": [],
+    "preAuthorizedApplications": [],
+    "requestedAccessTokenVersion": 2
+  },
+  "appId": "18038c21-d13d-4096-9c7e-38cedf44ec19",
+  "appRoles": [],
+  "applicationTemplateId": null,
+  "certification": null,
+  "createdDateTime": "2023-05-23T09:09:32.3261681Z",
+  "defaultRedirectUri": null,
+  "deletedDateTime": null,
+  "description": null,
+  "disabledByMicrosoftStatus": null,
+  "displayName": "u08GraphDaemonApp",
+  "groupMembershipClaims": null,
+  "id": "d666abb7-67a5-4c93-a141-883a79cc1230",
+  "identifierUris": [],
+  "info": {
+    "logoUrl": null,
+    "marketingUrl": null,
+    "privacyStatementUrl": null,
+    "supportUrl": null,
+    "termsOfServiceUrl": null
+  },
+  "isDeviceOnlyAuthSupported": null,
+  "isFallbackPublicClient": null,
+  "keyCredentials": [],
+  "notes": null,
+  "optionalClaims": null,
+  "parentalControlSettings": {
+    "countriesBlockedForMinors": [],
+    "legalAgeGroupRule": "Allow"
+  },
+  "passwordCredentials": [],
+  "publicClient": {
+    "redirectUris": []
+  },
+  "publisherDomain": "aaaaws.com",
+  "requestSignatureVerification": null,
+  "requiredResourceAccess": [],
+  "samlMetadataUrl": null,
+  "serviceManagementReference": null,
+  "servicePrincipalLockConfiguration": null,
+  "signInAudience": "AzureADandPersonalMicrosoftAccount",
+  "spa": {
+    "redirectUris": []
+  },
+  "tags": [],
+  "tokenEncryptionKeyId": null,
+  "verifiedPublisher": {
+    "addedDateTime": null,
+    "displayName": null,
+    "verifiedPublisherId": null
+  },
+  "web": {
+    "homePageUrl": null,
+    "implicitGrantSettings": {
+      "enableAccessTokenIssuance": false,
+      "enableIdTokenIssuance": false
+    },
+    "logoutUrl": null,
+    "redirectUriSettings": [],
+    "redirectUris": []
+  }
+}
